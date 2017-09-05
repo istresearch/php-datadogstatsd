@@ -39,7 +39,7 @@ class Datadogstatsd {
     /**
      * @var string Config for submitting events via 'TCP' vs 'UDP'; default 'UDP'
      */
-    static private $__submitEventsOver = 'UDP' ;
+    static private $__submitEventsOver = self::SEND_UDP ;
 
     const OK        = 0;
     const WARNING   = 1;
