@@ -1,6 +1,8 @@
 CHANGELOG
 =========
 
+# 0.4.1 / 2017-09-07 (istresearch/php-datadogstatsd)
+* (PR #1) An issue in which the aggregation key was not inscribed in events sent over UDP has been resolved.
 
 # 0.4.0 / 2016-05-24
 * Add the ability to send events via both TCP and UDP (default is UDP)
